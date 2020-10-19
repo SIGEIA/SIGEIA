@@ -1,0 +1,114 @@
+<html>
+<head>
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-omnivore/0.3.4/leaflet-omnivore.js"></script>
+	<link rel="stylesheet" href="https://unpkg.com/leaflet-draw@1.0.2/dist/leaflet.draw.css" />
+	<script src="https://unpkg.com/leaflet-draw@1.0.2/dist/leaflet.draw.js"></script>
+	<script src="tokml.js"></script>
+
+</head>
+<body>
+
+<div id="mapid" style="width: 1200px; height: 600px;"></div>
+<button onclick="downloadKML()" style="position: absolute;top: 20px;right: 20px;padding: 10px;z-index: 400;">Download</button>
+<script>
+    // https://github.com/kennethjiang/js-file-download
+    function download(data, filename, mime) {
+   	 var blob = new Blob([data], {type: mime || 'application/octet-stream'});
+   	 if (typeof window.navigator.msSaveBlob !== 'undefined') {
+   		 // IE workaround for "HTML7007: One or more blob URLs were
+   		 // revoked by closing the blob for which they were created.
+   		 // These URLs will no longer resolve as the data backing
+   		 // the URL has been freed."
+   		 window.navigator.msSaveBlob(blob, filename);
+   	 }
+   	 else {
+   		 var blobURL = window.URL.createObjectURL(blob);
+   		 var tempLink = document.createElement('a');
+   		 tempLink.style.display = 'none';
+   		 tempLink.href = blobURL;
+   		 tempLink.setAttribute('download', filename);
+   		 
+   		 // Safari thinks _blank anchor are pop ups. We only want to set _blank
+   		 // target if the browser does not support the HTML5 download attribute.
+   		 // This allows you to download files in desktop safari if pop up blocking
+   		 // is enabled.
+   		 if (typeof tempLink.download === 'undefined') {
+   			 tempLink.setAttribute('target', '_blank');
+   		 }
+   		 
+   		 document.body.appendChild(tempLink);
+   		 tempLink.click();
+   		 document.body.removeChild(tempLink);
+   		 window.URL.revokeObjectURL(blobURL);
+   	 }
+    }    
+    
+    function downloadKML() {
+    	var json = runLayer.toGeoJSON();
+    	// https://raw.githubusercontent.com/mapbox/tokml/master/tokml.js
+   	 var kml = tokml(json);
+   	 download(kml, 'salida.kml');
+    }
+    
+	var mymap = L.map('mapid').setView([-31.390571, -57.952881], 11);
+
+	osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+	}).addTo(mymap);
+
+	var otm = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+    	maxZoom: 17,
+    	attribution: 'Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
+	}).addTo(mymap);
+
+    
+	var runLayer = omnivore.kml('c372.kml').on('ready', function() {
+		mymap.fitBounds(runLayer.getBounds());
+	}).addTo(mymap);
+    
+	var runLayer2 = omnivore.kml('c262.kml').addTo(mymap);
+    
+	var baseMaps = {
+	"OpenStreetMap": osm,
+	"OpenTopoMap": otm
+	};
+
+    
+	var overlayMaps = {
+    	"Tomas": runLayer,
+    	"CuencasN5": runLayer2
+	};
+    
+	L.control.layers(baseMaps, overlayMaps,{
+    	position: 'topright', // 'topleft', 'bottomleft', 'bottomright'
+    	collapsed: false // true
+	}).addTo(mymap);
+
+
+	// Initialise the draw control and pass it the FeatureGroup of editable layers
+	var drawControl = new L.Control.Draw({
+  	draw: {
+   	  circlemarker: false,
+   	  circle: false
+  	},
+  	edit: {
+    	featureGroup: runLayer
+  	}
+	});
+
+	mymap.addControl(drawControl);
+
+	mymap.on(L.Draw.Event.CREATED, function (e) {
+  	var type = e.layerType
+  	var layer = e.layer;
+
+  	// Do whatever else you need to. (save to db, add to map etc)
+  	runLayer.addLayer(layer);
+	});
+    
+</script>
+</body>
+</html>
