@@ -1,0 +1,1368 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:ns2="http://www.google.com/kml/ext/2.2" xmlns:ns3="http://www.w3.org/2005/Atom" xmlns:ns4="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Document>
+        <Schema name="c372_1" id="c372_1">
+            <SimpleField type="int" name="id"/>
+            <SimpleField type="string" name="region"/>
+            <SimpleField type="string" name="seccion"/>
+            <SimpleField type="string" name="servicio"/>
+            <SimpleField type="string" name="usina"/>
+            <SimpleField type="string" name="fuente"/>
+            <SimpleField type="string" name="identifica"/>
+            <SimpleField type="string" name="nombre"/>
+            <SimpleField type="string" name="popup"/>
+        </Schema>
+        <Folder>
+            <name>c372</name>
+            <Placemark id="c372.1">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">1</SimpleData>
+                        <SimpleData name="region">CENTRO</SimpleData>
+                        <SimpleData name="seccion">CANELONES ESTE</SimpleData>
+                        <SimpleData name="servicio">SIST ATLANTIDA</SimpleData>
+                        <SimpleData name="usina">SIST ATLANTIDA Usina Laguna Cisne</SimpleData>
+                        <SimpleData name="fuente">LAGUNA</SimpleData>
+                        <SimpleData name="identifica">DEL CISNE</SimpleData>
+                        <SimpleData name="nombre">Toma_Laguna del Cisne</SimpleData>
+                        <SimpleData name="popup">Toma_Laguna del Cisne</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-55.83425754172327,-34.7520621093397</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.2">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">2</SimpleData>
+                        <SimpleData name="region">CENTRO</SimpleData>
+                        <SimpleData name="seccion">CANELONES ESTE</SimpleData>
+                        <SimpleData name="servicio">SIST FLORESTA</SimpleData>
+                        <SimpleData name="usina">SIST FLORESTA Arroyo Sarandí Convencional</SimpleData>
+                        <SimpleData name="fuente">ARROYO</SimpleData>
+                        <SimpleData name="identifica">SARANDI</SimpleData>
+                        <SimpleData name="nombre">Toma_Arroyo Sarandí</SimpleData>
+                        <SimpleData name="popup">Toma_Arroyo Sarandí</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-55.66671253480666,-34.7592331383848</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.3">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">3</SimpleData>
+                        <SimpleData name="region">CENTRO</SimpleData>
+                        <SimpleData name="seccion">CANELONES ESTE</SimpleData>
+                        <SimpleData name="servicio">SIST. SAN RAMON</SimpleData>
+                        <SimpleData name="usina">SIST. SAN RAMON CONVENCIONAL</SimpleData>
+                        <SimpleData name="fuente">RIO</SimpleData>
+                        <SimpleData name="identifica">SANTA LUCIA</SimpleData>
+                        <SimpleData name="nombre">Toma_Santa Lucía-San Ramón</SimpleData>
+                        <SimpleData name="popup">Toma_Santa Lucía-San Ramón</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-55.953772069615795,-34.28148408412919</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.4">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">4</SimpleData>
+                        <SimpleData name="region">CENTRO</SimpleData>
+                        <SimpleData name="seccion">CANELONES ESTE</SimpleData>
+                        <SimpleData name="servicio">TALA</SimpleData>
+                        <SimpleData name="usina">TALA UPA 200</SimpleData>
+                        <SimpleData name="fuente">ARROYO</SimpleData>
+                        <SimpleData name="identifica">VEJIGAS</SimpleData>
+                        <SimpleData name="nombre">Toma_Arroyo Vejigas</SimpleData>
+                        <SimpleData name="popup">Toma_Arroyo Vejigas</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-55.74053949186135,-34.27427786387086</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.5">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">5</SimpleData>
+                        <SimpleData name="region">CENTRO</SimpleData>
+                        <SimpleData name="seccion">CANELONES OESTE</SimpleData>
+                        <SimpleData name="servicio">SAUCE</SimpleData>
+                        <SimpleData name="usina">SAUCE PPT 200</SimpleData>
+                        <SimpleData name="fuente">ARROYO</SimpleData>
+                        <SimpleData name="identifica">PANTANOSO</SimpleData>
+                        <SimpleData name="nombre">Toma_Arroyo Pantanoso</SimpleData>
+                        <SimpleData name="popup">Toma_Arroyo Pantanoso</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-56.06153477703736,-34.65344474963721</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.6">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">6</SimpleData>
+                        <SimpleData name="region">CENTRO</SimpleData>
+                        <SimpleData name="seccion">CANELONES OESTE</SimpleData>
+                        <SimpleData name="servicio">SIST SANTA LUCIA</SimpleData>
+                        <SimpleData name="usina">SIST SANTA LUCIA USINA</SimpleData>
+                        <SimpleData name="fuente">RIO</SimpleData>
+                        <SimpleData name="identifica">SANTA LUCIA</SimpleData>
+                        <SimpleData name="nombre">Toma_Santa Lucía_ciudad</SimpleData>
+                        <SimpleData name="popup">Toma_Santa Lucía_ciudad</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-56.39961952803831,-34.43875259670293</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.7">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">7</SimpleData>
+                        <SimpleData name="region">CENTRO</SimpleData>
+                        <SimpleData name="seccion">CANELONES SUR</SimpleData>
+                        <SimpleData name="servicio">PANDO</SimpleData>
+                        <SimpleData name="usina">PANDO Usina Usina</SimpleData>
+                        <SimpleData name="fuente">ARROYO</SimpleData>
+                        <SimpleData name="identifica">PANDO</SimpleData>
+                        <SimpleData name="nombre">Toma_Parque Pando</SimpleData>
+                        <SimpleData name="popup">Toma_Parque Pando</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-55.94572093156429,-34.70389476066658</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.8">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">8</SimpleData>
+                        <SimpleData name="region">CENTRO</SimpleData>
+                        <SimpleData name="seccion">DURAZNO</SimpleData>
+                        <SimpleData name="servicio">DURAZNO</SimpleData>
+                        <SimpleData name="usina">DURAZNO CONVENCIONAL</SimpleData>
+                        <SimpleData name="fuente">RIO</SimpleData>
+                        <SimpleData name="identifica">YI</SimpleData>
+                        <SimpleData name="nombre">Toma_Yi</SimpleData>
+                        <SimpleData name="popup">Toma_Yi</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-56.50524700918537,-33.379490978817174</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.9">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">9</SimpleData>
+                        <SimpleData name="region">CENTRO</SimpleData>
+                        <SimpleData name="seccion">DURAZNO</SimpleData>
+                        <SimpleData name="servicio">SARANDI DEL YI</SimpleData>
+                        <SimpleData name="usina">SARANDI DEL YI CONVENCIONAL</SimpleData>
+                        <SimpleData name="fuente">RIO</SimpleData>
+                        <SimpleData name="identifica">YI</SimpleData>
+                        <SimpleData name="nombre">Toma_Sarandí del Yi</SimpleData>
+                        <SimpleData name="popup">Toma_Sarandí del Yi</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-55.629524624362375,-33.32762063991867</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.10">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">10</SimpleData>
+                        <SimpleData name="region">CENTRO</SimpleData>
+                        <SimpleData name="seccion">FLORIDA</SimpleData>
+                        <SimpleData name="servicio">25 DE MAYO</SimpleData>
+                        <SimpleData name="usina">25 DE MAYO PPT 200 UPA 200</SimpleData>
+                        <SimpleData name="fuente">CAÑADA</SimpleData>
+                        <SimpleData name="identifica">ISLA MALA</SimpleData>
+                        <SimpleData name="nombre">Toma_Isla Mala</SimpleData>
+                        <SimpleData name="popup">Toma_Isla Mala</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-56.320365011200295,-34.195249474334766</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.11">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">11</SimpleData>
+                        <SimpleData name="region">CENTRO</SimpleData>
+                        <SimpleData name="seccion">FLORIDA</SimpleData>
+                        <SimpleData name="servicio">FLORIDA</SimpleData>
+                        <SimpleData name="usina">FLORIDA CONVENCIONAL - UPA</SimpleData>
+                        <SimpleData name="fuente">RIO</SimpleData>
+                        <SimpleData name="identifica">STA LUCIA CHICO</SimpleData>
+                        <SimpleData name="nombre">Toma_Florida</SimpleData>
+                        <SimpleData name="popup">Toma_Florida</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-56.20486965753836,-34.095732931405784</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.12">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">12</SimpleData>
+                        <SimpleData name="region">CENTRO</SimpleData>
+                        <SimpleData name="seccion">FLORIDA</SimpleData>
+                        <SimpleData name="servicio">FRAY MARCOS</SimpleData>
+                        <SimpleData name="usina">FRAY MARCOS PPT 200</SimpleData>
+                        <SimpleData name="fuente">RIO</SimpleData>
+                        <SimpleData name="identifica">SANTA LUCIA</SimpleData>
+                        <SimpleData name="nombre">Toma_Santa Lucía Gde_ ruta 7</SimpleData>
+                        <SimpleData name="popup">Toma_Santa Lucía Gde_ ruta 7</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-55.74130136369692,-34.21563457215078</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.13">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">13</SimpleData>
+                        <SimpleData name="region">CENTRO</SimpleData>
+                        <SimpleData name="seccion">FLORIDA</SimpleData>
+                        <SimpleData name="servicio">PASO SEVERINO</SimpleData>
+                        <SimpleData name="usina">PASO SEVERINO PPT 200</SimpleData>
+                        <SimpleData name="fuente">RIO</SimpleData>
+                        <SimpleData name="identifica">STA LUCIA CHICO</SimpleData>
+                        <SimpleData name="nombre">Toma_Paso Severino</SimpleData>
+                        <SimpleData name="popup">Toma_Paso Severino</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-56.30400092664609,-34.266067091914756</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.14">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">14</SimpleData>
+                        <SimpleData name="region">CENTRO</SimpleData>
+                        <SimpleData name="seccion">FLORIDA</SimpleData>
+                        <SimpleData name="servicio">SARANDI GRANDE</SimpleData>
+                        <SimpleData name="usina">SARANDI GRANDE PPT 200</SimpleData>
+                        <SimpleData name="fuente">ARROYO</SimpleData>
+                        <SimpleData name="identifica">DEL SAUCE</SimpleData>
+                        <SimpleData name="nombre">Toma_Sarandí Grande</SimpleData>
+                        <SimpleData name="popup">Toma_Sarandí Grande</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-56.460133573374655,-33.733727538130644</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.15">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">15</SimpleData>
+                        <SimpleData name="region">LITORAL NORTE</SimpleData>
+                        <SimpleData name="seccion">ARTIGAS</SimpleData>
+                        <SimpleData name="servicio">ARTIGAS</SimpleData>
+                        <SimpleData name="usina">ARTIGAS 00 Usina de purificación y bombeo</SimpleData>
+                        <SimpleData name="fuente">RIO</SimpleData>
+                        <SimpleData name="identifica">CUAREIM</SimpleData>
+                        <SimpleData name="nombre">Toma_Artigas</SimpleData>
+                        <SimpleData name="popup">Toma_Artigas</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-56.452383550743484,-30.40457657078104</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.16">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">16</SimpleData>
+                        <SimpleData name="region">LITORAL NORTE</SimpleData>
+                        <SimpleData name="seccion">ARTIGAS</SimpleData>
+                        <SimpleData name="servicio">BELLA UNION</SimpleData>
+                        <SimpleData name="usina">BELLA UNION 1 U.P.A. 2.000</SimpleData>
+                        <SimpleData name="fuente">RIO</SimpleData>
+                        <SimpleData name="identifica">URUGUAY</SimpleData>
+                        <SimpleData name="nombre">Toma_Bella Unión</SimpleData>
+                        <SimpleData name="popup">Toma_Bella Unión</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-57.612190878919456,-30.26116874035866</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.17">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">17</SimpleData>
+                        <SimpleData name="region">LITORAL NORTE</SimpleData>
+                        <SimpleData name="seccion">PAYSANDU</SimpleData>
+                        <SimpleData name="servicio">Bº BASSOTTI</SimpleData>
+                        <SimpleData name="usina">Bº BASSOTTI * UPA 200</SimpleData>
+                        <SimpleData name="fuente">RIO</SimpleData>
+                        <SimpleData name="identifica">URUGUAY</SimpleData>
+                        <SimpleData name="nombre">Toma_Casablanca</SimpleData>
+                        <SimpleData name="popup">Toma_Casablanca</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-58.16064994365398,-32.3953396268818</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.18">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">18</SimpleData>
+                        <SimpleData name="region">LITORAL NORTE</SimpleData>
+                        <SimpleData name="seccion">PAYSANDU</SimpleData>
+                        <SimpleData name="servicio">GUICHON</SimpleData>
+                        <SimpleData name="usina">GUICHON 0 UPA 1000</SimpleData>
+                        <SimpleData name="fuente">ARROYO</SimpleData>
+                        <SimpleData name="identifica">GUAYABO CHICO</SimpleData>
+                        <SimpleData name="nombre">Toma_Puente Guayabos chico</SimpleData>
+                        <SimpleData name="popup">Toma_Puente Guayabos chico</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-57.266818631639,-32.36085342372444</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.19">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">19</SimpleData>
+                        <SimpleData name="region">LITORAL NORTE</SimpleData>
+                        <SimpleData name="seccion">PAYSANDU</SimpleData>
+                        <SimpleData name="servicio">PAYSANDU</SimpleData>
+                        <SimpleData name="usina">PAYSANDU 2 Usina de potabilización y bombeo</SimpleData>
+                        <SimpleData name="fuente">RIO</SimpleData>
+                        <SimpleData name="identifica">URUGUAY</SimpleData>
+                        <SimpleData name="nombre">Toma_Paysandú</SimpleData>
+                        <SimpleData name="popup">Toma_Paysandú</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-58.09385486820232,-32.301161045329806</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.20">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">20</SimpleData>
+                        <SimpleData name="region">LITORAL NORTE</SimpleData>
+                        <SimpleData name="seccion">RIO NEGRO</SimpleData>
+                        <SimpleData name="servicio">FRAY BENTOS</SimpleData>
+                        <SimpleData name="usina">FRAY BENTOS 1 Usina de Purificación y Bombeo</SimpleData>
+                        <SimpleData name="fuente">RIO</SimpleData>
+                        <SimpleData name="identifica">URUGUAY</SimpleData>
+                        <SimpleData name="nombre">Toma_Fray Bentos</SimpleData>
+                        <SimpleData name="popup">Toma_Fray Bentos</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-58.2965660641643,-33.10815915950187</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.21">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">21</SimpleData>
+                        <SimpleData name="region">LITORAL NORTE</SimpleData>
+                        <SimpleData name="seccion">SALTO</SimpleData>
+                        <SimpleData name="servicio">LA CHINITA</SimpleData>
+                        <SimpleData name="usina">LA CHINITA S/N UPA La Chinita</SimpleData>
+                        <SimpleData name="fuente">RIO</SimpleData>
+                        <SimpleData name="identifica">DAYMAN</SimpleData>
+                        <SimpleData name="nombre">Toma_Daymán</SimpleData>
+                        <SimpleData name="popup">Toma_Daymán</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-57.88730607398185,-31.452216014304874</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.22">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">22</SimpleData>
+                        <SimpleData name="region">LITORAL NORTE</SimpleData>
+                        <SimpleData name="seccion">SALTO</SimpleData>
+                        <SimpleData name="servicio">SALTO</SimpleData>
+                        <SimpleData name="usina">SALTO USINA PURIFICACION Y BOMBEO Usina de Purificación y Bombeo</SimpleData>
+                        <SimpleData name="fuente">RIO</SimpleData>
+                        <SimpleData name="identifica">URUGUAY</SimpleData>
+                        <SimpleData name="nombre">Toma_Ayuí</SimpleData>
+                        <SimpleData name="popup">Toma_Ayuí</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-57.98624239500151,-31.359248704510254</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.23">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">23</SimpleData>
+                        <SimpleData name="region">LITORAL SUR</SimpleData>
+                        <SimpleData name="seccion">COLONIA</SimpleData>
+                        <SimpleData name="servicio">ANCHORENA</SimpleData>
+                        <SimpleData name="usina">ANCHORENA Anchorena</SimpleData>
+                        <SimpleData name="fuente">RIO</SimpleData>
+                        <SimpleData name="identifica">SAN JUÁN</SimpleData>
+                        <SimpleData name="nombre">Toma_San Juan</SimpleData>
+                        <SimpleData name="popup">Toma_San Juan</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-57.98318166376461,-34.27588889964356</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.24">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">24</SimpleData>
+                        <SimpleData name="region">LITORAL SUR</SimpleData>
+                        <SimpleData name="seccion">COLONIA</SimpleData>
+                        <SimpleData name="servicio">CARMELO</SimpleData>
+                        <SimpleData name="usina">CARMELO CONVENCIONAL</SimpleData>
+                        <SimpleData name="fuente">ARROYO</SimpleData>
+                        <SimpleData name="identifica">LAS VACAS</SimpleData>
+                        <SimpleData name="nombre">Toma_Arroyo de las Vacas</SimpleData>
+                        <SimpleData name="popup">Toma_Arroyo de las Vacas</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-58.30100322843809,-34.002867205202804</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.25">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">25</SimpleData>
+                        <SimpleData name="region">LITORAL SUR</SimpleData>
+                        <SimpleData name="seccion">COLONIA</SimpleData>
+                        <SimpleData name="servicio">COLONIA</SimpleData>
+                        <SimpleData name="usina">COLONIA CONVENCIONAL</SimpleData>
+                        <SimpleData name="fuente">RIO</SimpleData>
+                        <SimpleData name="identifica">DE LA PLATA</SimpleData>
+                        <SimpleData name="nombre">Toma_Colonia</SimpleData>
+                        <SimpleData name="popup">Toma_Colonia</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-57.85359949445989,-34.47381266929007</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.26">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">26</SimpleData>
+                        <SimpleData name="region">LITORAL SUR</SimpleData>
+                        <SimpleData name="seccion">COLONIA</SimpleData>
+                        <SimpleData name="servicio">COLONIA</SimpleData>
+                        <SimpleData name="usina">COLONIA UPA 2000</SimpleData>
+                        <SimpleData name="fuente">RIO</SimpleData>
+                        <SimpleData name="identifica">DE LA PLATA</SimpleData>
+                        <SimpleData name="nombre">Toma_Colonia</SimpleData>
+                        <SimpleData name="popup">Toma_Colonia</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-57.85359949445989,-34.47381266929007</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.27">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">27</SimpleData>
+                        <SimpleData name="region">LITORAL SUR</SimpleData>
+                        <SimpleData name="seccion">COLONIA</SimpleData>
+                        <SimpleData name="servicio">JUAN LACAZE</SimpleData>
+                        <SimpleData name="usina">JUAN LACAZE 2 PLANTAS UPA 2000</SimpleData>
+                        <SimpleData name="fuente">RIO</SimpleData>
+                        <SimpleData name="identifica">DE LA PLATA</SimpleData>
+                        <SimpleData name="nombre">Toma_Juan Lacaze</SimpleData>
+                        <SimpleData name="popup">Toma_Juan Lacaze</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-57.42680349225671,-34.43761848177952</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.28">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">28</SimpleData>
+                        <SimpleData name="region">LITORAL SUR</SimpleData>
+                        <SimpleData name="seccion">COLONIA</SimpleData>
+                        <SimpleData name="servicio">JUAN LACAZE</SimpleData>
+                        <SimpleData name="usina">JUAN LACAZE CONVENCIONAL</SimpleData>
+                        <SimpleData name="fuente">RIO</SimpleData>
+                        <SimpleData name="identifica">DE LA PLATA</SimpleData>
+                        <SimpleData name="nombre">Toma_Juan Lacaze</SimpleData>
+                        <SimpleData name="popup">Toma_Juan Lacaze</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-57.42680349225671,-34.43761848177952</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.29">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">29</SimpleData>
+                        <SimpleData name="region">LITORAL SUR</SimpleData>
+                        <SimpleData name="seccion">COLONIA</SimpleData>
+                        <SimpleData name="servicio">NUEVA HELVECIA</SimpleData>
+                        <SimpleData name="usina">NUEVA HELVECIA CONVENCIONAL</SimpleData>
+                        <SimpleData name="fuente">RIO</SimpleData>
+                        <SimpleData name="identifica">ROSARIO</SimpleData>
+                        <SimpleData name="nombre">Toma_Nueva Helvecia</SimpleData>
+                        <SimpleData name="popup">Toma_Nueva Helvecia</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-57.20302538629016,-34.272986505874904</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.30">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">30</SimpleData>
+                        <SimpleData name="region">LITORAL SUR</SimpleData>
+                        <SimpleData name="seccion">COLONIA</SimpleData>
+                        <SimpleData name="servicio">NUEVA HELVECIA</SimpleData>
+                        <SimpleData name="usina">NUEVA HELVECIA UPA 2000</SimpleData>
+                        <SimpleData name="fuente">RIO</SimpleData>
+                        <SimpleData name="identifica">ROSARIO</SimpleData>
+                        <SimpleData name="nombre">Toma_Nueva Helvecia</SimpleData>
+                        <SimpleData name="popup">Toma_Nueva Helvecia</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-57.20302538629016,-34.272986505874904</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.31">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">31</SimpleData>
+                        <SimpleData name="region">LITORAL SUR</SimpleData>
+                        <SimpleData name="seccion">COLONIA</SimpleData>
+                        <SimpleData name="servicio">NUEVA PALMIRA</SimpleData>
+                        <SimpleData name="usina">NUEVA PALMIRA UPA 2000</SimpleData>
+                        <SimpleData name="fuente">RIO</SimpleData>
+                        <SimpleData name="identifica">URUGUAY</SimpleData>
+                        <SimpleData name="nombre">Toma_Palmira</SimpleData>
+                        <SimpleData name="popup">Toma_Palmira</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-58.411370885414776,-33.85789230933031</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.32">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">32</SimpleData>
+                        <SimpleData name="region">LITORAL SUR</SimpleData>
+                        <SimpleData name="seccion">COLONIA</SimpleData>
+                        <SimpleData name="servicio">ROSARIO</SimpleData>
+                        <SimpleData name="usina">ROSARIO UPA 2000</SimpleData>
+                        <SimpleData name="fuente">RIO</SimpleData>
+                        <SimpleData name="identifica">ROSARIO</SimpleData>
+                        <SimpleData name="nombre">Toma_Rosario</SimpleData>
+                        <SimpleData name="popup">Toma_Rosario</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-57.330945158592336,-34.32321698003244</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.33">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">33</SimpleData>
+                        <SimpleData name="region">LITORAL SUR</SimpleData>
+                        <SimpleData name="seccion">FLORES</SimpleData>
+                        <SimpleData name="servicio">ANDRESITO</SimpleData>
+                        <SimpleData name="usina">ANDRESITO PPT 200</SimpleData>
+                        <SimpleData name="fuente">ARROYO</SimpleData>
+                        <SimpleData name="identifica">GRANDE</SimpleData>
+                        <SimpleData name="nombre">Toma_Arroyo Grande</SimpleData>
+                        <SimpleData name="popup">Toma_Arroyo Grande</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-57.15612736595307,-33.141258241030464</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.34">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">34</SimpleData>
+                        <SimpleData name="region">LITORAL SUR</SimpleData>
+                        <SimpleData name="seccion">FLORES</SimpleData>
+                        <SimpleData name="servicio">TRINIDAD</SimpleData>
+                        <SimpleData name="usina">TRINIDAD CONVENCIONAL</SimpleData>
+                        <SimpleData name="fuente">ARROYO</SimpleData>
+                        <SimpleData name="identifica">PORONGOS</SimpleData>
+                        <SimpleData name="nombre">Toma_Porongos</SimpleData>
+                        <SimpleData name="popup">Toma_Porongos</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-56.82030420545943,-33.48296804776539</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.35">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">35</SimpleData>
+                        <SimpleData name="region">LITORAL SUR</SimpleData>
+                        <SimpleData name="seccion">SAN JOSE</SimpleData>
+                        <SimpleData name="servicio">ECILDA PAULLIER</SimpleData>
+                        <SimpleData name="usina">ECILDA PAULLIER 1 Oficina</SimpleData>
+                        <SimpleData name="fuente">ARROYO</SimpleData>
+                        <SimpleData name="identifica">PAVON</SimpleData>
+                        <SimpleData name="nombre">Toma_Ecilda</SimpleData>
+                        <SimpleData name="popup">Toma_Ecilda</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-57.10883996676069,-34.354261140218625</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.36">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">36</SimpleData>
+                        <SimpleData name="region">LITORAL SUR</SimpleData>
+                        <SimpleData name="seccion">SAN JOSE</SimpleData>
+                        <SimpleData name="servicio">SAN JOSE</SimpleData>
+                        <SimpleData name="usina">SAN JOSE CONVENCIONAL</SimpleData>
+                        <SimpleData name="fuente">RIO</SimpleData>
+                        <SimpleData name="identifica">SAN JOSE</SimpleData>
+                        <SimpleData name="nombre">Toma_San José</SimpleData>
+                        <SimpleData name="popup">Toma_San José</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-56.71291534281654,-34.316773697634225</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.37">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">37</SimpleData>
+                        <SimpleData name="region">LITORAL SUR</SimpleData>
+                        <SimpleData name="seccion">SORIANO</SimpleData>
+                        <SimpleData name="servicio">BAL. LA CONCORDIA</SimpleData>
+                        <SimpleData name="usina">BAL. LA CONCORDIA 1 UPA 200 NUEVA</SimpleData>
+                        <SimpleData name="fuente">RIO</SimpleData>
+                        <SimpleData name="identifica">URUGUAY</SimpleData>
+                        <SimpleData name="nombre">Toma_Concordia</SimpleData>
+                        <SimpleData name="popup">Toma_Concordia</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-58.43034142129544,-33.56204122756608</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.38">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">38</SimpleData>
+                        <SimpleData name="region">LITORAL SUR</SimpleData>
+                        <SimpleData name="seccion">SORIANO</SimpleData>
+                        <SimpleData name="servicio">DOLORES (SORIANO)</SimpleData>
+                        <SimpleData name="usina">DOLORES (SORIANO) UPA 4000 UPA 4000</SimpleData>
+                        <SimpleData name="fuente">RIO</SimpleData>
+                        <SimpleData name="identifica">SAN SALVADOR</SimpleData>
+                        <SimpleData name="nombre">Toma_San Salvador</SimpleData>
+                        <SimpleData name="popup">Toma_San Salvador</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-58.20058291298504,-33.51616657274568</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.39">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">39</SimpleData>
+                        <SimpleData name="region">LITORAL SUR</SimpleData>
+                        <SimpleData name="seccion">SORIANO</SimpleData>
+                        <SimpleData name="servicio">MERCEDES</SimpleData>
+                        <SimpleData name="usina">MERCEDES 1 Usina de Potalibización y Bombeo</SimpleData>
+                        <SimpleData name="fuente">ARROYO</SimpleData>
+                        <SimpleData name="identifica">BEQUELO</SimpleData>
+                        <SimpleData name="nombre">Toma_Bequeló</SimpleData>
+                        <SimpleData name="popup">Toma_Bequeló</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-58.0054535940363,-33.231441321748086</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.40">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">40</SimpleData>
+                        <SimpleData name="region">METROPOLITANA</SimpleData>
+                        <SimpleData name="seccion">MONTEVIDEO</SimpleData>
+                        <SimpleData name="servicio">MONTEVIDEO</SimpleData>
+                        <SimpleData name="usina">MONTEVIDEO Ag. Corrientes Usina Convencional</SimpleData>
+                        <SimpleData name="fuente">RIO</SimpleData>
+                        <SimpleData name="identifica">SANTA LUCIA</SimpleData>
+                        <SimpleData name="nombre">Toma_Aguas Corrientes</SimpleData>
+                        <SimpleData name="popup">Toma_Aguas Corrientes</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-56.39626055091616,-34.514413799470084</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.41">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">41</SimpleData>
+                        <SimpleData name="region">NORESTE</SimpleData>
+                        <SimpleData name="seccion">CERRO LARGO</SimpleData>
+                        <SimpleData name="servicio">ACEGUA</SimpleData>
+                        <SimpleData name="usina">ACEGUA 1 UPA 200</SimpleData>
+                        <SimpleData name="fuente">ARTIFICIAL</SimpleData>
+                        <SimpleData name="nombre">Toma_Embalse Aceguá</SimpleData>
+                        <SimpleData name="popup">Toma_Embalse Aceguá</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-54.186902527708014,-31.8783310085969</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.42">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">42</SimpleData>
+                        <SimpleData name="region">NORESTE</SimpleData>
+                        <SimpleData name="seccion">CERRO LARGO</SimpleData>
+                        <SimpleData name="servicio">B DE MEDINA</SimpleData>
+                        <SimpleData name="usina">B DE MEDINA 01 UPA 200</SimpleData>
+                        <SimpleData name="fuente">ARROYO</SimpleData>
+                        <SimpleData name="identifica">BAÑADO MEDINA</SimpleData>
+                        <SimpleData name="nombre">Toma_Bañado Medina ruta 7</SimpleData>
+                        <SimpleData name="popup">Toma_Bañado Medina ruta 7</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-54.34795586884603,-32.388210034608846</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.43">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">43</SimpleData>
+                        <SimpleData name="region">NORESTE</SimpleData>
+                        <SimpleData name="seccion">CERRO LARGO</SimpleData>
+                        <SimpleData name="servicio">CERRO CHATO</SimpleData>
+                        <SimpleData name="usina">CERRO CHATO 2000 UPA</SimpleData>
+                        <SimpleData name="fuente">CAÑADA</SimpleData>
+                        <SimpleData name="identifica">SALTO DE AGUA</SimpleData>
+                        <SimpleData name="nombre">Toma_represa Salto de Agua</SimpleData>
+                        <SimpleData name="popup">Toma_represa Salto de Agua</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-55.10386464649206,-33.10704054253071</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.44">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">44</SimpleData>
+                        <SimpleData name="region">NORESTE</SimpleData>
+                        <SimpleData name="seccion">CERRO LARGO</SimpleData>
+                        <SimpleData name="servicio">FRAILE MUERTO</SimpleData>
+                        <SimpleData name="usina">FRAILE MUERTO 1 UPA 200</SimpleData>
+                        <SimpleData name="fuente">ARROYO</SimpleData>
+                        <SimpleData name="identifica">FRAILE MUERTO</SimpleData>
+                        <SimpleData name="nombre">Toma_Puente Fraile Muerto</SimpleData>
+                        <SimpleData name="popup">Toma_Puente Fraile Muerto</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-54.52915692221795,-32.51944887730298</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.45">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">45</SimpleData>
+                        <SimpleData name="region">NORESTE</SimpleData>
+                        <SimpleData name="seccion">CERRO LARGO</SimpleData>
+                        <SimpleData name="servicio">LAGO MERIN</SimpleData>
+                        <SimpleData name="usina">LAGO MERIN 1 UPA 200</SimpleData>
+                        <SimpleData name="fuente">LAGO</SimpleData>
+                        <SimpleData name="identifica">MERIN</SimpleData>
+                        <SimpleData name="nombre">Toma_Lago Merín</SimpleData>
+                        <SimpleData name="popup">Toma_Lago Merín</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-53.25319834087064,-32.73650311167501</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.46">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">46</SimpleData>
+                        <SimpleData name="region">NORESTE</SimpleData>
+                        <SimpleData name="seccion">CERRO LARGO</SimpleData>
+                        <SimpleData name="servicio">LAGO MERIN</SimpleData>
+                        <SimpleData name="usina">LAGO MERIN S/N° Convencional</SimpleData>
+                        <SimpleData name="fuente">LAGO</SimpleData>
+                        <SimpleData name="identifica">MERIN</SimpleData>
+                        <SimpleData name="nombre">Toma_Lago Merín</SimpleData>
+                        <SimpleData name="popup">Toma_Lago Merín</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-53.25319834087064,-32.73650311167501</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.47">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">47</SimpleData>
+                        <SimpleData name="region">NORESTE</SimpleData>
+                        <SimpleData name="seccion">CERRO LARGO</SimpleData>
+                        <SimpleData name="servicio">MELO</SimpleData>
+                        <SimpleData name="usina">MELO S/N° Convencional - UPA 2000</SimpleData>
+                        <SimpleData name="fuente">RIO</SimpleData>
+                        <SimpleData name="identifica">TACUARI</SimpleData>
+                        <SimpleData name="nombre">Toma_Tacuarí</SimpleData>
+                        <SimpleData name="popup">Toma_Tacuarí</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-54.21771890861995,-32.432753075851586</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.48">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">48</SimpleData>
+                        <SimpleData name="region">NORESTE</SimpleData>
+                        <SimpleData name="seccion">CERRO LARGO</SimpleData>
+                        <SimpleData name="servicio">RIO BRANCO</SimpleData>
+                        <SimpleData name="usina">RIO BRANCO S/N° Usina Convencional</SimpleData>
+                        <SimpleData name="fuente">RIO</SimpleData>
+                        <SimpleData name="identifica">YAGUARON</SimpleData>
+                        <SimpleData name="nombre">Toma_Mauá</SimpleData>
+                        <SimpleData name="popup">Toma_Mauá</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-53.380375652256774,-32.57993477787179</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.49">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">49</SimpleData>
+                        <SimpleData name="region">NORESTE</SimpleData>
+                        <SimpleData name="seccion">CERRO LARGO</SimpleData>
+                        <SimpleData name="servicio">STA C DE OLIMAR</SimpleData>
+                        <SimpleData name="usina">STA C DE OLIMAR 1 EMBALSE</SimpleData>
+                        <SimpleData name="fuente">ARROYO</SimpleData>
+                        <SimpleData name="identifica">PABLO PAEZ</SimpleData>
+                        <SimpleData name="nombre">Toma_Arroyo Pablo Paéz</SimpleData>
+                        <SimpleData name="popup">Toma_Arroyo Pablo Paéz</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-54.957856042098456,-32.87447521822609</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.50">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">50</SimpleData>
+                        <SimpleData name="region">NORESTE</SimpleData>
+                        <SimpleData name="seccion">RIVERA</SimpleData>
+                        <SimpleData name="servicio">CERRILLADA</SimpleData>
+                        <SimpleData name="usina">CERRILLADA 1 UPA 200</SimpleData>
+                        <SimpleData name="fuente">CAÑADA</SimpleData>
+                        <SimpleData name="identifica">S/N</SimpleData>
+                        <SimpleData name="nombre">Toma_Cerrillada</SimpleData>
+                        <SimpleData name="popup">Toma_Cerrillada</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-54.71420422987466,-31.447436983311064</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.51">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">51</SimpleData>
+                        <SimpleData name="region">NORESTE</SimpleData>
+                        <SimpleData name="seccion">RIVERA</SimpleData>
+                        <SimpleData name="servicio">M DE CORRALES</SimpleData>
+                        <SimpleData name="usina">M DE CORRALES 1 U.P.A. 200</SimpleData>
+                        <SimpleData name="fuente">ARROYO</SimpleData>
+                        <SimpleData name="identifica">CORRALES</SimpleData>
+                        <SimpleData name="nombre">Toma_Corrales_Rivera</SimpleData>
+                        <SimpleData name="popup">Toma_Corrales_Rivera</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-55.45601383821022,-31.581577036106015</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.52">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">52</SimpleData>
+                        <SimpleData name="region">NORESTE</SimpleData>
+                        <SimpleData name="seccion">RIVERA</SimpleData>
+                        <SimpleData name="servicio">RIVERA</SimpleData>
+                        <SimpleData name="usina">RIVERA Upa 2000 Upa 2000</SimpleData>
+                        <SimpleData name="fuente">ARROYO</SimpleData>
+                        <SimpleData name="identifica">CUÑAPIRÚ</SimpleData>
+                        <SimpleData name="nombre">Toma_RepresaCuñapirú</SimpleData>
+                        <SimpleData name="popup">Toma_RepresaCuñapirú</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-55.61731315627392,-30.86454811094844</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.53">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">53</SimpleData>
+                        <SimpleData name="region">NORESTE</SimpleData>
+                        <SimpleData name="seccion">RIVERA</SimpleData>
+                        <SimpleData name="servicio">VICHADERO</SimpleData>
+                        <SimpleData name="usina">VICHADERO 1 U.P.A. 200 -0001 UPA 1000</SimpleData>
+                        <SimpleData name="fuente">ARROYO</SimpleData>
+                        <SimpleData name="identifica">CORONILLA</SimpleData>
+                        <SimpleData name="nombre">Toma_Coronilla_Vichadero</SimpleData>
+                        <SimpleData name="popup">Toma_Coronilla_Vichadero</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-54.68979934944913,-31.75231908535971</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.54">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">54</SimpleData>
+                        <SimpleData name="region">NORESTE</SimpleData>
+                        <SimpleData name="seccion">TACUAREMBO</SimpleData>
+                        <SimpleData name="servicio">ANSINA</SimpleData>
+                        <SimpleData name="usina">ANSINA 2 U.P.A. 200</SimpleData>
+                        <SimpleData name="fuente">RIO</SimpleData>
+                        <SimpleData name="identifica">TACUAREMBO GDE</SimpleData>
+                        <SimpleData name="nombre">Toma_Ansina</SimpleData>
+                        <SimpleData name="popup">Toma_Ansina</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-55.469990748423236,-31.875253892701807</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.55">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">55</SimpleData>
+                        <SimpleData name="region">NORESTE</SimpleData>
+                        <SimpleData name="seccion">TACUAREMBO</SimpleData>
+                        <SimpleData name="servicio">P DE LOS TOROS</SimpleData>
+                        <SimpleData name="usina">P DE LOS TOROS 1 U.P.A. 2.000</SimpleData>
+                        <SimpleData name="fuente">RIO</SimpleData>
+                        <SimpleData name="identifica">NEGRO</SimpleData>
+                        <SimpleData name="nombre">Toma_Paso de los Toros</SimpleData>
+                        <SimpleData name="popup">Toma_Paso de los Toros</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-56.51289863844061,-32.82011569459792</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.56">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">56</SimpleData>
+                        <SimpleData name="region">NORESTE</SimpleData>
+                        <SimpleData name="seccion">TACUAREMBO</SimpleData>
+                        <SimpleData name="servicio">SAN GREGORIO</SimpleData>
+                        <SimpleData name="usina">SAN GREGORIO 200 U.P.A. 200</SimpleData>
+                        <SimpleData name="fuente">RIO</SimpleData>
+                        <SimpleData name="identifica">NEGRO</SimpleData>
+                        <SimpleData name="nombre">Toma_San Gregorio</SimpleData>
+                        <SimpleData name="popup">Toma_San Gregorio</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-55.83720893508088,-32.621903316975946</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.57">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">57</SimpleData>
+                        <SimpleData name="region">NORESTE</SimpleData>
+                        <SimpleData name="seccion">TACUAREMBO</SimpleData>
+                        <SimpleData name="servicio">TACUAREMBO</SimpleData>
+                        <SimpleData name="usina">TACUAREMBO 1 Usina de purificación y bombeo</SimpleData>
+                        <SimpleData name="fuente">RIO</SimpleData>
+                        <SimpleData name="identifica">TACUAREMBO CHICO</SimpleData>
+                        <SimpleData name="nombre">Toma_Tacuarembó</SimpleData>
+                        <SimpleData name="popup">Toma_Tacuarembó</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-56.02150265188987,-31.68995141642919</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.58">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">58</SimpleData>
+                        <SimpleData name="region">SURESTE</SimpleData>
+                        <SimpleData name="seccion">LAVALLEJA</SimpleData>
+                        <SimpleData name="servicio">J B Y ORDOÑEZ</SimpleData>
+                        <SimpleData name="usina">J B Y ORDOÑEZ 0 Usina Battle y Ordóñez</SimpleData>
+                        <SimpleData name="fuente">ARROYO</SimpleData>
+                        <SimpleData name="identifica">NICO PEREZ</SimpleData>
+                        <SimpleData name="nombre">Toma_Embalse Nico Pérez</SimpleData>
+                        <SimpleData name="popup">Toma_Embalse Nico Pérez</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-55.12247948188318,-33.4543632792768</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.59">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">59</SimpleData>
+                        <SimpleData name="region">SURESTE</SimpleData>
+                        <SimpleData name="seccion">LAVALLEJA</SimpleData>
+                        <SimpleData name="servicio">MINAS</SimpleData>
+                        <SimpleData name="usina">MINAS 0 Usina Maggiolo</SimpleData>
+                        <SimpleData name="fuente">ARROYO</SimpleData>
+                        <SimpleData name="identifica">SAN FRANCISCO</SimpleData>
+                        <SimpleData name="nombre">Toma_San Francisco</SimpleData>
+                        <SimpleData name="popup">Toma_San Francisco</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-55.22120922040292,-34.38869980583234</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.60">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">60</SimpleData>
+                        <SimpleData name="region">SURESTE</SimpleData>
+                        <SimpleData name="seccion">LAVALLEJA</SimpleData>
+                        <SimpleData name="servicio">MINAS</SimpleData>
+                        <SimpleData name="usina">MINAS 1 2 UPA 2000</SimpleData>
+                        <SimpleData name="fuente">RIO</SimpleData>
+                        <SimpleData name="identifica">SANTA LUCIA</SimpleData>
+                        <SimpleData name="nombre">Toma_Cerro de los Cuervos</SimpleData>
+                        <SimpleData name="popup">Toma_Cerro de los Cuervos</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-55.27495021006658,-34.27872812989</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.61">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">61</SimpleData>
+                        <SimpleData name="region">SURESTE</SimpleData>
+                        <SimpleData name="seccion">LAVALLEJA</SimpleData>
+                        <SimpleData name="servicio">S DE MATAOJO</SimpleData>
+                        <SimpleData name="usina">S DE MATAOJO 1 UPA 1000</SimpleData>
+                        <SimpleData name="fuente">ARROYO</SimpleData>
+                        <SimpleData name="identifica">MATAOJO</SimpleData>
+                        <SimpleData name="nombre">Toma_Solís de Mataojo</SimpleData>
+                        <SimpleData name="popup">Toma_Solís de Mataojo</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-55.45696205745422,-34.5989764830119</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.62">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">62</SimpleData>
+                        <SimpleData name="region">SURESTE</SimpleData>
+                        <SimpleData name="seccion">LAVALLEJA</SimpleData>
+                        <SimpleData name="servicio">SIST MONTES</SimpleData>
+                        <SimpleData name="usina">SIST MONTES 0 Usina Montes</SimpleData>
+                        <SimpleData name="fuente">ARROYO</SimpleData>
+                        <SimpleData name="identifica">SOLIS GRANDE</SimpleData>
+                        <SimpleData name="nombre">Toma_Montes</SimpleData>
+                        <SimpleData name="popup">Toma_Montes</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-55.55098661115674,-34.49926163717594</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.63">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">63</SimpleData>
+                        <SimpleData name="region">SURESTE</SimpleData>
+                        <SimpleData name="seccion">MALDONADO</SimpleData>
+                        <SimpleData name="servicio">AIGUA</SimpleData>
+                        <SimpleData name="usina">AIGUA 1 usina</SimpleData>
+                        <SimpleData name="fuente">ARROYO</SimpleData>
+                        <SimpleData name="identifica">SAUCE</SimpleData>
+                        <SimpleData name="nombre">Toma_Aiguá</SimpleData>
+                        <SimpleData name="popup">Toma_Aiguá</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-54.77407418372458,-34.20524222741472</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.64">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">64</SimpleData>
+                        <SimpleData name="region">SURESTE</SimpleData>
+                        <SimpleData name="seccion">MALDONADO</SimpleData>
+                        <SimpleData name="servicio">SISTEMA LAGUNA DEL SAUCE</SimpleData>
+                        <SimpleData name="usina">SISTEMA LAGUNA DEL SAUCE Padrón 19333, 5ta.Sección Judicial Usina Laguna del Sauce</SimpleData>
+                        <SimpleData name="fuente">LAGUNA</SimpleData>
+                        <SimpleData name="identifica">DEL SAUCE</SimpleData>
+                        <SimpleData name="nombre">Toma_Laguna del Sauce</SimpleData>
+                        <SimpleData name="popup">Toma_Laguna del Sauce</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-55.04197180646714,-34.829812076629814</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.65">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">65</SimpleData>
+                        <SimpleData name="region">SURESTE</SimpleData>
+                        <SimpleData name="seccion">MALDONADO</SimpleData>
+                        <SimpleData name="servicio">LAG. ESCONDIDA</SimpleData>
+                        <SimpleData name="usina">Planta Potab. José Ignacio</SimpleData>
+                        <SimpleData name="fuente">LAGUNA</SimpleData>
+                        <SimpleData name="identifica">ESCONDIDA</SimpleData>
+                        <SimpleData name="nombre">Toma_Laguna Escondida</SimpleData>
+                        <SimpleData name="popup">Toma_Laguna Escondida</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-54.62743734437223,-34.820208420579455</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.66">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">66</SimpleData>
+                        <SimpleData name="region">SURESTE</SimpleData>
+                        <SimpleData name="seccion">MALDONADO</SimpleData>
+                        <SimpleData name="servicio">LAG. BLANCA</SimpleData>
+                        <SimpleData name="usina">Planta Potab. Lag. Blanca</SimpleData>
+                        <SimpleData name="fuente">LAGUNA</SimpleData>
+                        <SimpleData name="identifica">BLANCA</SimpleData>
+                        <SimpleData name="nombre">Toma_Laguna Blanca</SimpleData>
+                        <SimpleData name="popup">Toma_Laguna Blanca</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-54.83825274992597,-34.90078379020501</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.67">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">67</SimpleData>
+                        <SimpleData name="region">SURESTE</SimpleData>
+                        <SimpleData name="seccion">MALDONADO</SimpleData>
+                        <SimpleData name="servicio">LAG. BLANCA</SimpleData>
+                        <SimpleData name="usina">Planta Potab. Lag. Blanca</SimpleData>
+                        <SimpleData name="fuente">ARROYO</SimpleData>
+                        <SimpleData name="identifica">SAN CARLOS</SimpleData>
+                        <SimpleData name="nombre">Toma_San Carlos</SimpleData>
+                        <SimpleData name="popup">Toma_San Carlos</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-54.902575595362016,-34.77452808351336</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.68">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">68</SimpleData>
+                        <SimpleData name="region">SURESTE</SimpleData>
+                        <SimpleData name="seccion">ROCHA</SimpleData>
+                        <SimpleData name="servicio">AGUAS DULCES</SimpleData>
+                        <SimpleData name="usina">AGUAS DULCES 4 UPA 200</SimpleData>
+                        <SimpleData name="fuente">LAGUNA</SimpleData>
+                        <SimpleData name="identifica">GARCIA</SimpleData>
+                        <SimpleData name="nombre">Toma_Laguna García</SimpleData>
+                        <SimpleData name="popup">Toma_Laguna García</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-53.790213279986624,-34.2678120071601</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.69">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">69</SimpleData>
+                        <SimpleData name="region">SURESTE</SimpleData>
+                        <SimpleData name="seccion">ROCHA</SimpleData>
+                        <SimpleData name="servicio">LASCANO</SimpleData>
+                        <SimpleData name="usina">LASCANO 2 Usina de Averias</SimpleData>
+                        <SimpleData name="fuente">RIO</SimpleData>
+                        <SimpleData name="identifica">CEBOLLATI</SimpleData>
+                        <SimpleData name="nombre">Toma_Averías</SimpleData>
+                        <SimpleData name="popup">Toma_Averías</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-54.33142882979082,-33.61391350759073</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.70">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">70</SimpleData>
+                        <SimpleData name="region">SURESTE</SimpleData>
+                        <SimpleData name="seccion">ROCHA</SimpleData>
+                        <SimpleData name="servicio">ROCHA</SimpleData>
+                        <SimpleData name="usina">ROCHA 1 Usina de Rocha</SimpleData>
+                        <SimpleData name="fuente">ARROYO</SimpleData>
+                        <SimpleData name="identifica">ROCHA</SimpleData>
+                        <SimpleData name="nombre">Toma_Arroyo Rocha</SimpleData>
+                        <SimpleData name="popup">Toma_Arroyo Rocha</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-54.346108498485094,-34.46026340798955</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.71">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">71</SimpleData>
+                        <SimpleData name="region">SURESTE</SimpleData>
+                        <SimpleData name="seccion">ROCHA</SimpleData>
+                        <SimpleData name="servicio">SIST LA PALOMA</SimpleData>
+                        <SimpleData name="usina">SIST LA PALOMA 11 Upa 2000</SimpleData>
+                        <SimpleData name="fuente">ARROYO</SimpleData>
+                        <SimpleData name="identifica">LA PALMA</SimpleData>
+                        <SimpleData name="nombre">Toma_Represa La Palma_aa</SimpleData>
+                        <SimpleData name="popup">Toma_Represa La Palma_aa</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-54.16839428151158,-34.59057559028618</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.72">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">72</SimpleData>
+                        <SimpleData name="region">SURESTE</SimpleData>
+                        <SimpleData name="seccion">TREINTA Y TRES</SimpleData>
+                        <SimpleData name="servicio">ENRIQUE MARTINEZ</SimpleData>
+                        <SimpleData name="usina">ENRIQUE MARTINEZ 332 UPA 200</SimpleData>
+                        <SimpleData name="fuente">RIO</SimpleData>
+                        <SimpleData name="identifica">CEBOLLATI</SimpleData>
+                        <SimpleData name="nombre">Toma_Charqueada</SimpleData>
+                        <SimpleData name="popup">Toma_Charqueada</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-53.801518560073376,-33.20878995926524</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.73">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">73</SimpleData>
+                        <SimpleData name="region">SURESTE</SimpleData>
+                        <SimpleData name="seccion">TREINTA Y TRES</SimpleData>
+                        <SimpleData name="servicio">JOSE P VARELA</SimpleData>
+                        <SimpleData name="usina">JOSE P VARELA 1 UPA VARELA</SimpleData>
+                        <SimpleData name="fuente">ARROYO</SimpleData>
+                        <SimpleData name="identifica">CORRALES</SimpleData>
+                        <SimpleData name="nombre">Toma_Varela-Corrales</SimpleData>
+                        <SimpleData name="popup">Toma_Varela-Corrales</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-54.532504235710554,-33.442191790502584</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.74">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">74</SimpleData>
+                        <SimpleData name="region">SURESTE</SimpleData>
+                        <SimpleData name="seccion">TREINTA Y TRES</SimpleData>
+                        <SimpleData name="servicio">T Y TRES</SimpleData>
+                        <SimpleData name="usina">T Y TRES 333 Usina de T y Tres</SimpleData>
+                        <SimpleData name="fuente">RIO</SimpleData>
+                        <SimpleData name="identifica">OLIMAR</SimpleData>
+                        <SimpleData name="nombre">Toma_Olimar</SimpleData>
+                        <SimpleData name="popup">Toma_Olimar</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-54.40407747504142,-33.23893137704256</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="c372.75">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#c372_1">
+                        <SimpleData name="id">75</SimpleData>
+                        <SimpleData name="region">SURESTE</SimpleData>
+                        <SimpleData name="seccion">TREINTA Y TRES</SimpleData>
+                        <SimpleData name="servicio">VERGARA</SimpleData>
+                        <SimpleData name="usina">VERGARA UPA 1000</SimpleData>
+                        <SimpleData name="fuente">ARROYO</SimpleData>
+                        <SimpleData name="identifica">VERGARA</SimpleData>
+                        <SimpleData name="nombre">Toma_Vergara</SimpleData>
+                        <SimpleData name="popup">Toma_Vergara</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-53.94351020569349,-32.93299144212262</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>
